@@ -1,0 +1,10 @@
+<p>
+    Here you will see the details of party number: {{ vm.partyId }}
+
+    <input ng-model="vm.party.name">
+    <input ng-model="vm.party.description">
+
+    <button ng-click="vm.save()">Save</button>
+    <button ng-click="vm.reset()">Reset form</button>
+    <button ui-sref="parties">Cancel</button>
+</p>
